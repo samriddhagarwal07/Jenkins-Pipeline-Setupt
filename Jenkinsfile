@@ -9,7 +9,8 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/samriddhagarwal07/Jenkins-Pipeline-Setupt.git'
+                git branch: 'main', url: 'https://github.com/samriddhagarwal07/Jenkins-Pipeline-Setupt.git'
+
             }
         }
 
